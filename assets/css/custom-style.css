@@ -1,0 +1,514 @@
+body {
+    color: #212529;
+}
+
+.date-time-div {
+    text-align: center;
+    padding: 10px 16px;
+}
+
+.display-time {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(#8e54e9, #4776e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.display-date {
+    font-size: 12px;
+    font-weight: 600;
+    color: #a2a5bd;
+}
+
+.clockdate-wrapper {
+    background-color: #333;
+    padding:25px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+  
+}
+#clock{
+    background-color:#333;
+    font-family: sans-serif;
+    font-size:60px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+}
+#clock span {
+    color:#888;
+    text-shadow:0px 0px 1px #333;
+    font-size:50px;
+    position:relative;
+    top:-5px;
+    left:10px;
+}
+#date {
+    letter-spacing:3px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    color:#fff;
+}
+
+label {
+    color: #5c5d64;
+}
+
+.form-check label {
+    font-size: 14px;
+}
+
+.form-check label:before {
+    border: 1px solid #9596a1;
+}
+
+.form-check label:before {
+    left: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.form-check label:after {
+    left: 9px;
+    width: 10px;
+    height: 10px;
+}
+
+.form-control {
+    border: 1px solid #9596a1;
+}
+
+#renterForm .error,
+#userForm .error {
+    color: #e3324c;
+    font-size: 1rem!important;
+    font-style: italic;
+    padding: 0.4em 0.5em 0.3em;
+}
+
+.card .card-header {
+    background: linear-gradient(to right,#8e54e9 0,#4776e6 100%)!important;
+}
+
+.card .card-header .card-title {
+    color: #fff;
+    margin: 3px 0;
+}
+
+table > thead > tr{
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: none;
+    background: linear-gradient(to right,#8e54e9 0,#4776e6 100%)!important;
+    color: #fff !important;
+}
+
+.list-img{
+    text-align: center;
+}
+
+.list-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #8e54e9;
+    background: linear-gradient(to right,#8e54e9 0,#4776e6 100%)!important;
+}
+
+.action-btn{
+    text-align: center;
+}
+
+.info-img{
+    width: 100%;
+    border-radius: 5%;
+    border: 2px solid #4776e6;
+    background: linear-gradient(to right,#8e54e9 0,#4776e6 100%)!important;
+}
+
+.img-preview{
+    border-radius: 2%;
+    background: linear-gradient(to right,#8e54e9 0,#4776e6 100%)!important;
+}
+
+.doc-preview{
+    border-radius: 2%;
+    background: linear-gradient(to right,#8e54e9 0,#4776e6 100%)!important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #8e54e9;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #f4ecff;
+    border: 1px solid #8e54e9;
+    border-radius: 0;
+}
+
+.pass-strength {
+    list-style-type: none;
+}
+
+.bg-default{
+    background-color: #e9ecef;
+}
+
+.top-bar .navbar .nav-right .nav-item.user-profile .nav-link {
+    padding: 0.7em 0 !important;
+}
+
+.top-bar .navbar .nav-right .nav-item.user-profile a img {
+    width: 40px !important;
+    height: 40px !important;
+    background: linear-gradient(to right,#8e54e9 0,#4776e6 100%) !important;
+}
+
+.datepicker table tr td span.focused,
+.datepicker table tr td span:hover {
+    background: linear-gradient(to right,#8e54e9 0,#4776e6 100%)!important;
+    color: #ffffff;
+}
+
+.live-notify {
+    position: relative;
+    top: 7px;
+    right: -14px;
+}
+
+.live-notify .blink {
+    position: absolute;
+    top: -20px;
+    right: -4px;
+    height: 25px;
+    width: 25px;
+    z-index: 10;
+    border: 5px solid #e3324c;
+    border-radius: 70px;
+    -moz-animation: blink 1s ease-out;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s ease-out;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation: blink 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.live-notify .dot {
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #e3324c;
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+
+.table-secondary th,
+.table-secondary td {
+    color: #212529!important;
+    border-color: #212529!important;
+}
+
+.table-bordered thead th {
+    border: 2px solid #212529;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+.table-bordered tbody td {
+    border: 1px solid #212529;
+}
+
+.table-bordered tfoot th {
+    border: 3px solid #212529;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    font-size: 16px;
+    min-width: 100px;
+}
+
+.table-bordered tfoot th.empty-row {
+    background: #fff !important;
+    border-left: none;
+    border-bottom: none;
+}
+
+.invoice-info-row {
+    margin: 15px 0 15px 0;
+    border: 2px solid #212529;
+    border-radius: 5px;
+}
+
+.invoice-info-left,
+.invoice-info-center,
+.invoice-info-right {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.invoice-info-left p,
+.invoice-info-center p,
+.invoice-info-right p {
+    color: #212529;
+    font-size: 16px;
+}
+
+.invoice-info-table {
+    color: #212529;
+    font-size: 16px;
+}
+
+.invoice-info-table table tbody tr th {
+    text-align: center;
+}
+
+.invoice-info-table table tbody tr td:nth-child(2) {
+    text-align: center;
+}
+
+.invoice-info-table table tbody tr td:nth-child(3) {
+    text-align: right;
+}
+
+.renter-sign,
+.authority-sign {
+    margin-top: 80px;
+}
+
+.renter-sign h5,
+.authority-sign h5 {
+    margin-bottom: 0;
+}
+
+.renter-sign h5 span,
+.authority-sign h5 span {
+    border-top: 2px solid #212529;
+    padding-top: 5px;
+}
+
+.sidebar-user-ing {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.filter-box {
+    flex: 0 0 89%;
+    max-width: 89%;
+}
+
+.filter-button {
+    flex: 0 0 11%;
+    max-width: 11%;
+}
+
+.flat-banner {
+    background: linear-gradient(to right,#8e54e9 0,#4776e6 100%)!important;
+    padding: 80px 20px;
+}
+
+.flat-banner h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 0;
+    /* letter-spacing: 5px; */
+}
+
+.flat-banner h4 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.flat-body {
+    min-height: 185px !important;
+    max-height: 200px !important;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(45deg, #8e54e9, #4776e6) 1;
+    border-right: 1px solid #4776e6 !important;
+    border-left: 1px solid #8e54e9 !important;
+    border-top: none !important;
+}
+
+.app-navbar.expand .sidebar-banner {
+    padding: 8px !important;
+    margin: 8px !important;
+}
+
+.app-navbar.expand .sidebar-user-ing {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+
+.app-navbar.expand .user-name,
+.app-navbar.expand .user-role {
+    display: none;
+}
+
+.app-navbar.expand .logout-btn span {
+    display: none;
+}
+
+.app-navbar.expand .logout-btn {
+    padding: 0.2rem 0.6rem !important;
+}
+
+.business-img-bg{
+    width: 100%;
+    background: linear-gradient(to right,#8e54e9 0,#4776e6 100%)!important;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.user-img {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    padding: 4px;
+}
+
+ul.user-social-nav li {
+    margin: 0 5px;
+}
+
+.user-action-btn,
+.renter-action-btn {
+    text-align: right;
+}
+
+.user-id h4 {
+    margin: 3px 0;
+}
+
+ul.user-nav-details li.nav-item:hover {
+    background-color: #e9ecef;
+}
+
+.bg-facebook-o:hover {
+    background-color: #30487b;
+    border-color: #30487b;
+    color: #fff;
+}
+
+.bg-twitter-o:hover {
+    background-color: #00aced;
+    border-color: #00aced;
+    color: #fff;
+}
+
+.bg-instagram-o:hover {
+    background-color: #c32aa3;
+    border-color: #c32aa3;
+    color: #fff;
+}
+
+.bg-linkedin-o:hover {
+    background-color: #0077b5;
+    border-color: #0077b5;
+    color: #fff;
+}
+
+
+
+
+#renterForm .error, #userForm .error {
+    display: none;
+}
+
+.label-hints {
+    font-size: 10px;
+}
+
+
+
+.form-titel,
+.page-social,
+.page-personal {
+    padding: 1rem 1.5rem !important;
+}
+
+.bg-profile-img,
+.bg-business-img {
+    width: 100px;
+    height: auto;
+}
+
+.bg-profile-img img,
+.bg-business-img img {
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(45deg, #8e54e9, #4776e6) 1;
+    padding: 3px;
+    border-radius: 0%;
+    background: linear-gradient(0deg, rgba(186,186,186,1) 0%, rgba(226,226,226,1) 100%);
+}
+
+
+.accordion .acd-group .card-header .custom-accordion.collapsed:before {
+    padding: 40px 16px;
+}
+
+.accordion .acd-group .card-header .custom-accordion:before {
+    padding: 40px 16px;
+}
+
+.media .media-body h4 {
+    color: #ffffff;
+}
+
+.user-role-section {
+    display: flex;
+}
+
+.user-role-section p {
+    color: #ffffff;
+}
+
+.user-role-section span {
+    margin-left: 0.5rem;
+}
+
+.userStatus-bg {
+    background-color: #fff;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.userStatus-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.userStatus-dot.active {
+    background-color: green;
+}
+
+.userStatus-dot.deactive {
+    background-color: red;
+}
+
+.input-hints {
+    font-size: 14px;
+    color: #a6a9b7;
+    margin-top: 12px;
+}
